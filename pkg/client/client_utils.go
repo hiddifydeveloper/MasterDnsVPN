@@ -18,11 +18,11 @@ import (
 	"strings"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
-	"masterdnsvpn-go/pkg/version"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/version"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 // randomBytes generates random bytes using a cryptographically secure PRNG.

@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/crypto/chacha20"
 
-	baseCodec "masterdnsvpn-go/pkg/basecodec"
-	"masterdnsvpn-go/pkg/config"
+	baseCodec "github.com/hiddifydeveloper/MasterDnsVPN/pkg/basecodec"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
 )
 
 var (

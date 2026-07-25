@@ -17,12 +17,12 @@ import (
 	"strings"
 	"syscall"
 
-	UDPServer "masterdnsvpn-go/internal/udpserver"
-	"masterdnsvpn-go/pkg/config"
-	"masterdnsvpn-go/pkg/logger"
-	"masterdnsvpn-go/pkg/runtimepath"
-	"masterdnsvpn-go/pkg/security"
-	"masterdnsvpn-go/pkg/version"
+	UDPServer "github.com/hiddifydeveloper/MasterDnsVPN/internal/udpserver"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/runtimepath"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/version"
 )
 
 func waitForExitInput() {

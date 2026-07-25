@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"masterdnsvpn-go/pkg/compression"
-	"masterdnsvpn-go/pkg/config"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 func TestNextSessionInitAttemptUsesBalancerSnapshotConnection(t *testing.T) {

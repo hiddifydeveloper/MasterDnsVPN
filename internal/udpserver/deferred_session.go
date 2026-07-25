@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"masterdnsvpn-go/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
 )
 
 type deferredSessionLane struct {

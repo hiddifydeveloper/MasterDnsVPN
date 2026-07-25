@@ -9,8 +9,8 @@ package handlers
 import (
 	"testing"
 
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 type mtuTestClientContext struct {

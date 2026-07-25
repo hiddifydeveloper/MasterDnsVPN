@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 type PingManager struct {

@@ -15,12 +15,12 @@ import (
 	"sync"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	dnsCache "masterdnsvpn-go/pkg/dnscache"
-	dnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/netutil"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	dnsCache "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnscache"
+	dnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/netutil"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 type dnsFragmentKey struct {

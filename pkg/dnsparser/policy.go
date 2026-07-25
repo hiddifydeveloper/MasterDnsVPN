@@ -7,7 +7,7 @@
 
 package dnsparser
 
-import Enums "masterdnsvpn-go/pkg/enums"
+import Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 
 func IsSupportedTunnelDNSQuery(qType uint16, qClass uint16) bool {
 	if qClass != Enums.DNSQ_CLASS_IN {

@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	SocksProto "masterdnsvpn-go/internal/socksproto"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	SocksProto "github.com/hiddifydeveloper/MasterDnsVPN/internal/socksproto"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 const maxDeferredConnectAttemptTimeout = 15 * time.Second

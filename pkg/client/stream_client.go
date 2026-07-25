@@ -13,10 +13,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/mlq"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 var txPacketPool = sync.Pool{

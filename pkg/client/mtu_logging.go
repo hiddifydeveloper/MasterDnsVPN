@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"masterdnsvpn-go/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
 )
 
 const (

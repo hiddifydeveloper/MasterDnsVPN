@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/config"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 func TestSupportsSOCKS4Policy(t *testing.T) {

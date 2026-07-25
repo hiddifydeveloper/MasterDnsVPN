@@ -7,7 +7,7 @@
 
 package vpnproto
 
-import "masterdnsvpn-go/pkg/security"
+import "github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
 
 type BuildOptions struct {
 	SessionID       uint8

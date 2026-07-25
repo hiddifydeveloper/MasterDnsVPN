@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	"masterdnsvpn-go/pkg/config"
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
-	"masterdnsvpn-go/pkg/mlq"
-	"masterdnsvpn-go/pkg/security"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 func createTestClient(t *testing.T) *Client {

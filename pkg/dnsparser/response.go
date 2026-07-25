@@ -10,7 +10,7 @@ package dnsparser
 import (
 	"encoding/binary"
 
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 const (

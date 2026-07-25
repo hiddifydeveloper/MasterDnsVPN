@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/mlq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
 )
 
 // Stream_server encapsulates an ARQ instance and its transmit queue for a single stream.

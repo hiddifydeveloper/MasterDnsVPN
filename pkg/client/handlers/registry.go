@@ -9,9 +9,9 @@ package handlers
 
 import (
 	"fmt"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 	"net"
 )
 

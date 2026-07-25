@@ -16,11 +16,11 @@ import (
 	"net"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	"masterdnsvpn-go/pkg/client/handlers"
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/client/handlers"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	fragmentStore "github.com/hiddifydeveloper/MasterDnsVPN/pkg/fragmentstore"
 )
 
 const clientRXDropLogInterval = 2 * time.Second

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/config"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
 )
 
 func TestFormatMTULogLineSupportsDomainPlaceholder(t *testing.T) {

@@ -14,7 +14,7 @@ import (
 	"os"
 	"strings"
 
-	"masterdnsvpn-go/pkg/config"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
 )
 
 type EncryptionKeyInfo struct {

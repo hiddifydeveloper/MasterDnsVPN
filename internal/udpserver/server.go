@@ -16,13 +16,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	domainMatcher "masterdnsvpn-go/internal/domainmatcher"
-	"masterdnsvpn-go/pkg/config"
-	dnsCache "masterdnsvpn-go/pkg/dnscache"
-	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
-	"masterdnsvpn-go/pkg/logger"
-	"masterdnsvpn-go/pkg/security"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	domainMatcher "github.com/hiddifydeveloper/MasterDnsVPN/internal/domainmatcher"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	dnsCache "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnscache"
+	fragmentStore "github.com/hiddifydeveloper/MasterDnsVPN/pkg/fragmentstore"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 const (

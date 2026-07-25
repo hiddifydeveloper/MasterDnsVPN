@@ -12,9 +12,9 @@ import (
 	"slices"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 // asyncStreamDispatcher cycles through all active streams using a fair

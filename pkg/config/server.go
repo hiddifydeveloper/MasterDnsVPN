@@ -20,7 +20,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"masterdnsvpn-go/pkg/compression"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
 )
 
 type ServerConfig struct {

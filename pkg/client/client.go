@@ -17,15 +17,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	"masterdnsvpn-go/pkg/config"
-	dnsCache "masterdnsvpn-go/pkg/dnscache"
-	Enums "masterdnsvpn-go/pkg/enums"
-	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
-	"masterdnsvpn-go/pkg/logger"
-	"masterdnsvpn-go/pkg/mlq"
-	"masterdnsvpn-go/pkg/security"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	dnsCache "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnscache"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	fragmentStore "github.com/hiddifydeveloper/MasterDnsVPN/pkg/fragmentstore"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 const (

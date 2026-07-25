@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"masterdnsvpn-go/pkg/compression"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
 )
 
 func TestLoadClientConfigNormalizesAndLoadsResolvers(t *testing.T) {

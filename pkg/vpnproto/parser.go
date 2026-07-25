@@ -10,8 +10,8 @@ package vpnproto
 import (
 	"errors"
 
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/security"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
 )
 
 var (

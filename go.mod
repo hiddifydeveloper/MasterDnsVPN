@@ -5,7 +5,7 @@
 // Year: 2026
 // ==============================================================================
 
-module masterdnsvpn-go
+module github.com/hiddifydeveloper/MasterDnsVPN
 
 go 1.25.0
 

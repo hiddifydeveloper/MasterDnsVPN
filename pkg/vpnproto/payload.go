@@ -10,8 +10,8 @@ package vpnproto
 import (
 	"errors"
 
-	"masterdnsvpn-go/pkg/compression"
-	"masterdnsvpn-go/pkg/security"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/security"
 )
 
 var ErrInvalidCompressedPayload = errors.New("invalid compressed vpn payload")

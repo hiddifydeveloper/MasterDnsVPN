@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"masterdnsvpn-go/pkg/netutil"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/netutil"
 )
 
 type TCPListener struct {

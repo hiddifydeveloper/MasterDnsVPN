@@ -17,8 +17,8 @@ import (
 	"net"
 	"time"
 
-	"masterdnsvpn-go/pkg/dnsparser"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 // MockPacketEnqueuer captures packets sent by ARQ

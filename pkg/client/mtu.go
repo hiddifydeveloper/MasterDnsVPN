@@ -19,10 +19,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 var ErrNoValidConnections = errors.New("no valid connections after mtu testing")

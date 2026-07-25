@@ -19,10 +19,10 @@ import (
 	"strings"
 	"syscall"
 
-	"masterdnsvpn-go/pkg/client"
-	"masterdnsvpn-go/pkg/config"
-	"masterdnsvpn-go/pkg/runtimepath"
-	"masterdnsvpn-go/pkg/version"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/client"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/runtimepath"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/version"
 )
 
 func samePath(a string, b string) bool {

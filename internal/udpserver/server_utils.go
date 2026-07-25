@@ -11,10 +11,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"masterdnsvpn-go/pkg/compression"
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
 )
 
 func (s *Server) debugLoggingEnabled() bool {

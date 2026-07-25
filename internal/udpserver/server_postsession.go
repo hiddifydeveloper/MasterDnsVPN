@@ -11,11 +11,11 @@ import (
 	"context"
 	"time"
 
-	SocksProto "masterdnsvpn-go/internal/socksproto"
-	"masterdnsvpn-go/pkg/arq"
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	SocksProto "github.com/hiddifydeveloper/MasterDnsVPN/internal/socksproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 type deferredDispatchResult uint8

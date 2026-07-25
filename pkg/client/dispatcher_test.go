@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/mlq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
 )
 
 func TestAsyncStreamDispatcherDrainsQueuedWorkAfterSingleWake(t *testing.T) {

@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/arq"
-	"masterdnsvpn-go/pkg/config"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 func buildTCPTestClient() *Client {

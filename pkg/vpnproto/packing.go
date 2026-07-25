@@ -8,7 +8,7 @@
 package vpnproto
 
 import (
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 	"strconv"
 	"strings"
 )

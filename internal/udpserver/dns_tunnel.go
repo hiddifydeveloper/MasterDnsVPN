@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"masterdnsvpn-go/internal/inflight"
-	"masterdnsvpn-go/pkg/dnscache"
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/internal/inflight"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnscache"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 var ErrInvalidDNSUpstream = errors.New("invalid dns upstream")

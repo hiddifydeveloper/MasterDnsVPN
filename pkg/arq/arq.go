@@ -19,7 +19,7 @@ import (
 	"syscall"
 	"time"
 
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 // StreamState mirrors Python's Stream_State enum

@@ -9,7 +9,7 @@ package dnsparser
 import (
 	"testing"
 
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 func TestParsePacketLiteParsesAllQuestions(t *testing.T) {

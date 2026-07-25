@@ -16,10 +16,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	baseCodec "masterdnsvpn-go/pkg/basecodec"
-	"masterdnsvpn-go/pkg/compression"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	baseCodec "github.com/hiddifydeveloper/MasterDnsVPN/pkg/basecodec"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 var (

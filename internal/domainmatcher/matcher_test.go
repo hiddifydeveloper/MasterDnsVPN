@@ -10,8 +10,8 @@ package domainmatcher
 import (
 	"testing"
 
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 func TestMatcherReturnsNoDataForUnauthorizedDomain(t *testing.T) {

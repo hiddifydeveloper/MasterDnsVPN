@@ -11,8 +11,8 @@ import (
 	"bytes"
 	"testing"
 
-	"masterdnsvpn-go/pkg/compression"
-	Enums "masterdnsvpn-go/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 func TestPreparePayloadCompressesSupportedPacket(t *testing.T) {

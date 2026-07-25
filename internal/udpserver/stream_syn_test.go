@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/config"
-	Enums "masterdnsvpn-go/pkg/enums"
-	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	fragmentStore "github.com/hiddifydeveloper/MasterDnsVPN/pkg/fragmentstore"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 type testNetConn struct {

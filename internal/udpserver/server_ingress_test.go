@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	domainMatcher "masterdnsvpn-go/internal/domainmatcher"
-	Enums "masterdnsvpn-go/pkg/enums"
+	domainMatcher "github.com/hiddifydeveloper/MasterDnsVPN/internal/domainmatcher"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 func TestHandlePacketRejectsUnauthorizedDomainAsNXDOMAIN(t *testing.T) {

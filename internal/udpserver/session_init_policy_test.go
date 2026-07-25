@@ -4,13 +4,13 @@ import (
 	"encoding/binary"
 	"testing"
 
-	domainMatcher "masterdnsvpn-go/internal/domainmatcher"
-	"masterdnsvpn-go/pkg/arq"
-	"masterdnsvpn-go/pkg/compression"
-	"masterdnsvpn-go/pkg/config"
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	domainMatcher "github.com/hiddifydeveloper/MasterDnsVPN/internal/domainmatcher"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/arq"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 func TestSessionInitPolicyMTULimitsAreAppliedToServerSession(t *testing.T) {

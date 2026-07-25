@@ -5,10 +5,10 @@ import (
 	"sync"
 	"testing"
 
-	domainMatcher "masterdnsvpn-go/internal/domainmatcher"
-	DnsParser "masterdnsvpn-go/pkg/dnsparser"
-	Enums "masterdnsvpn-go/pkg/enums"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	domainMatcher "github.com/hiddifydeveloper/MasterDnsVPN/internal/domainmatcher"
+	DnsParser "github.com/hiddifydeveloper/MasterDnsVPN/pkg/dnsparser"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 func TestHandleMTUDownRequestBuildsZeroFilledPayload(t *testing.T) {

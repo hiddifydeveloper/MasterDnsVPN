@@ -18,11 +18,11 @@ import (
 	"sync"
 	"time"
 
-	"masterdnsvpn-go/pkg/compression"
-	Enums "masterdnsvpn-go/pkg/enums"
-	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
-	"masterdnsvpn-go/pkg/mlq"
-	VpnProto "masterdnsvpn-go/pkg/vpnproto"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/compression"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	fragmentStore "github.com/hiddifydeveloper/MasterDnsVPN/pkg/fragmentstore"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
+	VpnProto "github.com/hiddifydeveloper/MasterDnsVPN/pkg/vpnproto"
 )
 
 var (

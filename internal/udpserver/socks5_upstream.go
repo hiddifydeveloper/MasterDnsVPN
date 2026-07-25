@@ -17,8 +17,8 @@ import (
 	"strings"
 	"time"
 
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/logger"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/logger"
 )
 
 type upstreamSOCKS5Error struct {

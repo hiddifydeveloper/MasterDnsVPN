@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	Enums "masterdnsvpn-go/pkg/enums"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
 )
 
 func TestBuildEmptyNoErrorResponsePreservesIDAndQuestion(t *testing.T) {

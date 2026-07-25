@@ -3,8 +3,8 @@ package client
 import (
 	"testing"
 
-	Enums "masterdnsvpn-go/pkg/enums"
-	"masterdnsvpn-go/pkg/mlq"
+	Enums "github.com/hiddifydeveloper/MasterDnsVPN/pkg/enums"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/mlq"
 )
 
 func TestStreamZeroAllowsMultipleQueuedPingsWithDifferentSequence(t *testing.T) {

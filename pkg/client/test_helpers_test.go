@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/pkg/config"
+	"github.com/hiddifydeveloper/MasterDnsVPN/pkg/config"
 )
 
 func buildTestClientWithResolvers(cfg config.ClientConfig, keys ...string) *Client {
