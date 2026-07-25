@@ -11,10 +11,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"masterdnsvpn-go/internal/compression"
-	DnsParser "masterdnsvpn-go/internal/dnsparser"
-	Enums "masterdnsvpn-go/internal/enums"
-	"masterdnsvpn-go/internal/logger"
+	"masterdnsvpn-go/pkg/compression"
+	DnsParser "masterdnsvpn-go/pkg/dnsparser"
+	Enums "masterdnsvpn-go/pkg/enums"
+	"masterdnsvpn-go/pkg/logger"
 )
 
 func (s *Server) debugLoggingEnabled() bool {

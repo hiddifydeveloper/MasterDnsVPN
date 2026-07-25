@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/internal/config"
-	Enums "masterdnsvpn-go/internal/enums"
-	fragmentStore "masterdnsvpn-go/internal/fragmentstore"
-	VpnProto "masterdnsvpn-go/internal/vpnproto"
+	"masterdnsvpn-go/pkg/config"
+	Enums "masterdnsvpn-go/pkg/enums"
+	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
+	VpnProto "masterdnsvpn-go/pkg/vpnproto"
 )
 
 type testNetConn struct {

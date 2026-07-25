@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"masterdnsvpn-go/internal/dnscache"
-	DnsParser "masterdnsvpn-go/internal/dnsparser"
-	Enums "masterdnsvpn-go/internal/enums"
 	"masterdnsvpn-go/internal/inflight"
+	"masterdnsvpn-go/pkg/dnscache"
+	DnsParser "masterdnsvpn-go/pkg/dnsparser"
+	Enums "masterdnsvpn-go/pkg/enums"
 )
 
 var ErrInvalidDNSUpstream = errors.New("invalid dns upstream")

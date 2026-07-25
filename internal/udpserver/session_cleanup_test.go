@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"masterdnsvpn-go/internal/arq"
-	"masterdnsvpn-go/internal/config"
-	Enums "masterdnsvpn-go/internal/enums"
-	fragmentStore "masterdnsvpn-go/internal/fragmentstore"
-	"masterdnsvpn-go/internal/mlq"
-	VpnProto "masterdnsvpn-go/internal/vpnproto"
+	"masterdnsvpn-go/pkg/arq"
+	"masterdnsvpn-go/pkg/config"
+	Enums "masterdnsvpn-go/pkg/enums"
+	fragmentStore "masterdnsvpn-go/pkg/fragmentstore"
+	"masterdnsvpn-go/pkg/mlq"
+	VpnProto "masterdnsvpn-go/pkg/vpnproto"
 )
 
 type testReadWriteCloser struct {

@@ -17,12 +17,12 @@ import (
 	"strings"
 	"syscall"
 
-	"masterdnsvpn-go/internal/config"
-	"masterdnsvpn-go/internal/logger"
-	"masterdnsvpn-go/internal/runtimepath"
-	"masterdnsvpn-go/internal/security"
 	UDPServer "masterdnsvpn-go/internal/udpserver"
-	"masterdnsvpn-go/internal/version"
+	"masterdnsvpn-go/pkg/config"
+	"masterdnsvpn-go/pkg/logger"
+	"masterdnsvpn-go/pkg/runtimepath"
+	"masterdnsvpn-go/pkg/security"
+	"masterdnsvpn-go/pkg/version"
 )
 
 func waitForExitInput() {

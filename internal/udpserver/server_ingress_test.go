@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	domainMatcher "masterdnsvpn-go/internal/domainmatcher"
-	Enums "masterdnsvpn-go/internal/enums"
+	Enums "masterdnsvpn-go/pkg/enums"
 )
 
 func TestHandlePacketRejectsUnauthorizedDomainAsNXDOMAIN(t *testing.T) {

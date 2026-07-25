@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	Enums "masterdnsvpn-go/internal/enums"
 	SocksProto "masterdnsvpn-go/internal/socksproto"
-	VpnProto "masterdnsvpn-go/internal/vpnproto"
+	Enums "masterdnsvpn-go/pkg/enums"
+	VpnProto "masterdnsvpn-go/pkg/vpnproto"
 )
 
 const maxDeferredConnectAttemptTimeout = 15 * time.Second
